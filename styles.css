@@ -1,0 +1,44 @@
+.header {
+    background-color: #0F0606;
+    margin: 0px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+}
+
+.headerLinks {
+    color: #FCEDF6;
+    text-align: right;
+    display: flex;
+    padding: 2%;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 22px;
+}
+
+.headerLogo {
+    margin: 0px;
+    margin-bottom: 0%;
+    justify-self: left;
+    padding: 20px;
+}
+
+.intro {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    background-color: #0C2346;
+}
+
+body {
+    background-color: #0F0606;
+    margin: 0px;
+    color: #FCEDF6;
+    height: 100%;
+    font-family: 'Source Code Pro', monospace;
+}
