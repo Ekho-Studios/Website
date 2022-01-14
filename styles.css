@@ -1,16 +1,17 @@
 .header {
-    background-color: #0F0606;
+    background-color: #000000;
     margin: 0px;
     margin-bottom: 0%;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     width: 100vw;
     align-items: center;
+    position: fixed;
 }
 
 .headerLinks {
-    color: #FCEDF6;
-    text-align: right;
+    color: #EEEEEE;
+    text-align: left;
     display: flex;
     padding: 2%;
     text-decoration: none;
@@ -32,13 +33,90 @@
     align-items: center;
     flex-direction: column;
     height: 200px;
-    background-color: #0C2346;
+    background-color: #35090A;
+}
+
+.midnightDuskDesc {
+    padding-top: 50px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.mdDescTxt {
+    width: 50%;
+    word-wrap: normal;
+    font-size: 22px;
+    padding-left: 25px;
+}
+
+.mdTrailer {
+
+}
+
+.footer {
+    background-color: #070707;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    padding-bottom: 26px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.content {
+    padding-top: 100px;
+}
+
+.aboutContainer {
+    background-color: #1D1D1D;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.teamMember {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.aboutHeader {
+    text-align: center;
+}
+
+.recentPosts {
+    background-color: #1D1D1D;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.postBody {
+    background-color: #1D1D1D;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+a {
+    color:#C20F15;
 }
 
 body {
-    background-color: #0F0606;
+    background-color: #000000;
     margin: 0px;
-    color: #FCEDF6;
+    color: #EEEEEE;
     height: 100%;
     font-family: 'Source Code Pro', monospace;
+    width: 100%;
+    max-width: 2048px;
 }
