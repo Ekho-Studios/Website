@@ -58,18 +58,22 @@
 .footer {
     background-color: #070707;
     text-align: center;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
     box-sizing: border-box;
     padding-bottom: 26px;
     position: absolute;
     width: 100%;
     bottom: 0;
+    font-size: 11px;
+    height: 2.5rem;
 }
 
 .content {
     padding-top: 100px;
+    position: relative;
+    min-height: 100vh;
 }
 
 .aboutContainer {
